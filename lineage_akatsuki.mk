@@ -5,7 +5,7 @@
 #
 
 # Inherit from akatsuki device
-$(call inherit-product, device/sony/akatsuki/device.mk)
+$(call inherit-product, device/sony/akatsuki-kddi/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)

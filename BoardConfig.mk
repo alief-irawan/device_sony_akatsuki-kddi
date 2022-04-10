@@ -5,18 +5,18 @@
 #
 
 # Inherit from tama-common
--include device/sony/tama-common/BoardConfigCommon.mk
+-include device/sony/tama-common-kddi/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/akatsuki
+DEVICE_PATH := device/sony/akatsuki-kddi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := H8416,H9493,H9436,akatsuki,akatsuki_dual
+TARGET_OTA_ASSERT_DEVICE := H8416,H9493,H9436,akatsuki,akatsuki_dual,SOV39
 
 # Display
 TARGET_SCREEN_DENSITY := 480
 
 # Kernel
-TARGET_KERNEL_CONFIG := tama_akatsuki_defconfig
+TARGET_KERNEL_CONFIG := tama_akatsuki_kddi_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
