@@ -7,7 +7,7 @@
 # Inherit from tama-common
 -include device/sony/tama-common-kddi/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/akatsuki-kddi
+DEVICE_PATH := device/sony/akatsuki_kddi
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := H8416,H9493,H9436,akatsuki,akatsuki_dual,SOV39

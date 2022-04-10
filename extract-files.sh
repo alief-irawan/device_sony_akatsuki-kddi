@@ -14,8 +14,8 @@ fi
 set -e
 
 # Required!
-export DEVICE=akatsuki
-export DEVICE_COMMON=tama-common
+export DEVICE=akatsuki_kddi
+export DEVICE_COMMON=tama-common-kddi
 export VENDOR=sony
 
 export DEVICE_BRINGUP_YEAR=2021
